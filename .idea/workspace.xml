@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4f31e00-3f6d-4f23-bc9a-7be659bc0c8d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/spark/test/MockRealTimeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/spark/test/MockData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/producedate2hive/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/producedate2hive/Data2Hive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/dao/IMonitorDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/MonitorAndCameraStateAccumulator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1269">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1.jar!/org/apache/spark/AccumulableParam.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/jdbc/JDBCHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6966">
+              <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spark.local</find>
+      <find>jdbc.datasource.size</find>
+      <find>jdbc.url</find>
+      <find>sc</find>
+      <find>getMonitor2DetailRDD</find>
+      <find>speedTopNMonitor</find>
+      <find>getCameraRDDByDateRange</find>
+      <find>getInfosByDateRDD</find>
+      <find>getAreaId2AreaInfoRDD</find>
+      <find>group_concat_distinct</find>
+      <find>spark.local.taskId.monitorFlow</find>
+      <find>jdbc.driver</find>
+      <find>aggreagteByMonitor</find>
+      <find>checkMonitorState</find>
+      <find>getTopNMonitorCarFlow</find>
+      <find>spark.local.taskId.extractCar</find>
+      <find>randomExtractCarInfo</find>
+      <find>getCarTrack</find>
+      <find>IntList</find>
+      <find>spark.local.taskid.road.one.step.convert</find>
+      <find>generateAndMatchRowSplit</find>
+      <find>getRoadFlowCount</find>
+      <find>computeRoadSplitConvertRate</find>
+      <find>spark.local.taskid.tpn.road.flow</find>
+      <find>kafka.metadata.broker.list</find>
+      <find>kafka.topics</find>
+      <find>2018</find>
+      <find>addAccumulator</find>
+      <find>LongAccumulator</find>
+      <find>正常卡扣数</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\javaMvn\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/dao/impl/AreaDaoImpl.java" />
+        <option value="$PROJECT_DIR$/main/src/com/spark/spark/test/MockData.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/skynet/WithTheCarAnalyze.java" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/skynet/RandomExtractCars.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/skynet/MonitorFlowAnalyze.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/skynet/MonitorCarTrack.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/rtmroad/RoadRealTimeAnalyze.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/areaRoadFlow/MonitorOneStepConvertRateAnalyze.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/util/SparkUtils.java" />
+        <option value="$PROJECT_DIR$/main/src/com/bjsxt/spark/areaRoadFlow/AreaTop3RoadFlowAnalyze.java" />
+        <option value="$PROJECT_DIR$/main/src/com/spark/spark/test/MockRealTimeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/dao/impl/AreaDaoImpl.java" />
+        <option value="$PROJECT_DIR$/main/src/com/producedate2hive/Data2File.java" />
+        <option value="$PROJECT_DIR$/main/src/com/producedate2hive/Data2Hive.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/my.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/skynet/MonitorCarTrack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/skynet/WithTheCarAnalyze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/producedate2hive/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/dao/ITaskDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/util/SparkUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/areaRoadFlow/RandomPrefixUDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/areaRoadFlow/RemoveRandomPrefixUDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/dao/impl/MonitorDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/util/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/util/ParamUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/skynet/SelfDefineAccumulator.java" />
+        <option value="$PROJECT_DIR$/monitor_flow_action" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/skynet/RandomExtractCars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/areaRoadFlow/MonitorOneStepConvertRateAnalyze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/areaRoadFlow/AreaTop3RoadFlowAnalyze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/areaRoadFlow/GroupConcatDistinctUDAF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/rtmroad/RoadRealTimeAnalyze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/producedate2hive/Data2File.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/my.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/skynet/MonitorFlowAnalyze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bjsxt/spark/skynet/TopNCarSpeedMonitorFlowAnalyze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spark/spark/test/MockData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TrafficProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TrafficProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="415" />
+    <option name="y" value="20" />
+    <option name="width" value="1025" />
+    <option name="height" value="770" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrafficProject" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bjsxt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TrafficProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TrafficProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="AreaTop3RoadFlowAnalyze&#9;FILE&#9;file://D:/2018IDEA_space/TrafficProject/src/main/java/com/bjsxt/spark/areaRoadFlow/AreaTop3RoadFlowAnalyze.java&#10;getInfosByDateRDD&#9;PSI&#9;JAVA://com.bjsxt.spark.areaRoadFlow.AreaTop3RoadFlowAnalyze#getInfosByDateRDD&#10;ConfigurationManager&#9;FILE&#9;file://D:/2018IDEA_space/TrafficProject/src/main/java/com/bjsxt/spark/conf/ConfigurationManager.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575548196306" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\视频\spark\spark项目\TrafficProject\src\main\java\com\bjsxt\spark\skynet" />
+      <recent name="D:\2018IDEA_space\TrafficProject\src\main\resource" />
+      <recent name="D:\2018IDEA_space\TrafficProject\src\main\java" />
+      <recent name="D:\2018IDEA_space\TrafficProject" />
+      <recent name="D:\2018IDEA_space\TrafficProject\main\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MonitorFlowAnalyze">
+    <configuration name="Data2File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.producedate2hive.Data2File" />
+      <module name="TrafficProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.producedate2hive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockRealTimeData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spark.spark.test.MockRealTimeData" />
+      <module name="TrafficProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spark.spark.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorFlowAnalyze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjsxt.spark.skynet.MonitorFlowAnalyze" />
+      <module name="TrafficProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjsxt.spark.skynet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoadRealTimeAnalyze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjsxt.spark.rtmroad.RoadRealTimeAnalyze" />
+      <module name="TrafficProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjsxt.spark.rtmroad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopNCarSpeedMonitorFlowAnalyze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjsxt.spark.skynet.TopNCarSpeedMonitorFlowAnalyze" />
+      <module name="TrafficProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjsxt.spark.skynet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MonitorFlowAnalyze" />
+      <item itemvalue="Application.TopNCarSpeedMonitorFlowAnalyze" />
+      <item itemvalue="Application.RoadRealTimeAnalyze" />
+      <item itemvalue="Application.MockRealTimeData" />
+      <item itemvalue="Application.Data2File" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Data2File" />
+        <item itemvalue="Application.MockRealTimeData" />
+        <item itemvalue="Application.RoadRealTimeAnalyze" />
+        <item itemvalue="Application.TopNCarSpeedMonitorFlowAnalyze" />
+        <item itemvalue="Application.MonitorFlowAnalyze" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4f31e00-3f6d-4f23-bc9a-7be659bc0c8d" name="Default" comment="" />
+      <created>1541381285441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541381285441</updated>
+      <workItem from="1541381286891" duration="338000" />
+      <workItem from="1541382648768" duration="10271000" />
+      <workItem from="1541395925619" duration="1582000" />
+      <workItem from="1541397613990" duration="1017000" />
+      <workItem from="1541398762850" duration="2277000" />
+      <workItem from="1541401178114" duration="9433000" />
+      <workItem from="1541429402120" duration="713000" />
+      <workItem from="1541463799915" duration="4520000" />
+      <workItem from="1541511138572" duration="1245000" />
+      <workItem from="1542845245389" duration="149000" />
+      <workItem from="1542850822741" duration="4522000" />
+      <workItem from="1542869401731" duration="10107000" />
+      <workItem from="1542930225062" duration="1513000" />
+      <workItem from="1542935260881" duration="14655000" />
+      <workItem from="1542967196350" duration="57000" />
+      <workItem from="1543134242242" duration="622000" />
+      <workItem from="1543189473361" duration="239000" />
+      <workItem from="1543195647583" duration="1293000" />
+      <workItem from="1543219431046" duration="4300000" />
+      <workItem from="1543244834781" duration="13000" />
+      <workItem from="1543280632636" duration="8060000" />
+      <workItem from="1543290287055" duration="239000" />
+      <workItem from="1543449928515" duration="91000" />
+      <workItem from="1543505826265" duration="106000" />
+      <workItem from="1545723842528" duration="4362000" />
+      <workItem from="1545747978676" duration="24000" />
+      <workItem from="1545787145278" duration="17547000" />
+      <workItem from="1545872659732" duration="4031000" />
+      <workItem from="1545878349684" duration="8057000" />
+      <workItem from="1545903175108" duration="881000" />
+      <workItem from="1545959880399" duration="7565000" />
+      <workItem from="1546045840525" duration="6020000" />
+      <workItem from="1546390931939" duration="13146000" />
+      <workItem from="1546477742511" duration="16939000" />
+      <workItem from="1546566068917" duration="3633000" />
+      <workItem from="1546650371482" duration="9939000" />
+      <workItem from="1547387859267" duration="1183000" />
+      <workItem from="1547389446114" duration="607000" />
+      <workItem from="1547434313875" duration="14000" />
+      <workItem from="1547434594091" duration="184000" />
+      <workItem from="1550446109429" duration="1186000" />
+      <workItem from="1550452302386" duration="2170000" />
+      <workItem from="1550486381741" duration="311000" />
+      <workItem from="1550493119460" duration="1449000" />
+      <workItem from="1550540904177" duration="7765000" />
+      <workItem from="1550577819453" duration="4509000" />
+      <workItem from="1550625054743" duration="7918000" />
+      <workItem from="1550736307165" duration="292000" />
+      <workItem from="1561013832050" duration="36000" />
+      <workItem from="1561013898684" duration="34000" />
+      <workItem from="1561133343246" duration="122000" />
+      <workItem from="1561957770610" duration="581000" />
+      <workItem from="1562052475674" duration="590000" />
+      <workItem from="1562062920424" duration="592000" />
+      <workItem from="1562856397632" duration="939000" />
+      <workItem from="1563412882208" duration="1782000" />
+      <workItem from="1575547000501" duration="1049000" />
+      <workItem from="1575548085585" duration="120000" />
+      <workItem from="1575548262541" duration="277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203216000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30630028" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.009120172" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Word Book" order="11" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/MonitorFlowAnalyze.java</url>
+          <line>844</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/guo/spark/dao/IMonitorDAO.java</url>
+          <line>31</line>
+          <properties class="com.bjsxt.spark.dao.IMonitorDAO" method="insertMonitorState">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/producedate2hive/Data2File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/areaRoadFlow/AreaTop3RoadFlowAnalyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/util/ParamUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/util/SparkUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="124" column="54" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/dao/impl/MonitorDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/MonitorFlowAnalyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6426">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/domain/TopNMonitor2CarCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/MonitorCarTrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/RandomExtractCars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="147" column="59" selection-start-line="147" selection-start-column="59" selection-end-line="147" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/conf/ConfigurationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/TopNCarSpeedMonitorFlowAnalyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22869">
+          <caret line="896" column="29" selection-start-line="896" selection-start-column="29" selection-end-line="896" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/dao/factory/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/spark/test/MockRealTimeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/spark/test/MockData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/producedate2hive/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/dao/IMonitorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/skynet/MonitorAndCameraStateAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1.jar!/org/apache/spark/AccumulableParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guo/spark/jdbc/JDBCHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6966">
+          <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/producedate2hive/Data2Hive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TrafficProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: mysql:mysql-connector-java:5.1.47</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
